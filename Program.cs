@@ -14,8 +14,8 @@
             list.printNodes();
 
 
-            Console.WriteLine("Deleting last node");
-            list.deleteLastNode();
+            Console.WriteLine("Finding 30 in the Lineked list");
+            list.findNode(30);
             list.printNodes();
 
         }
