@@ -2,13 +2,17 @@
 {
     class Program
     {
-        public static void Main(string[] args)
+        public static void Main(String[] args)
         {
-            LinkedList linkedList = new LinkedList();
-            linkedList.Add(56);
-            linkedList.Add(30);
-            linkedList.Add(70);
-            linkedList.Display();
+            LinkedList list = new LinkedList();
+
+            Console.WriteLine("Current Size of the list is: " + list.getListSize());
+
+            list.insertNode(70);
+            list.insertNode(30);
+            list.insertNode(56);
+            list.printNodes();
         }
     }
+
 }
